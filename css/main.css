@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
 :root{
     --text-color: black;
     --icons-color: rgb(50, 50, 50);
@@ -75,7 +81,7 @@ button{
 /* ======= home page ======= */
 .container{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     color: white;
     background-color: var(--bg-color);
 }
@@ -120,6 +126,7 @@ label{
 .second_page{
     width: 100%;
     gap: 10px;
+    background-color: var(--bg-color);
 }
 .icons_sec{
     gap: 15px;
@@ -283,6 +290,9 @@ label{
         width: 30px;
         height: 30px;
     }
+    .container{
+        height: 100%;
+    }
 }
 
 @media(max-width: 645px){
@@ -294,15 +304,6 @@ label{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-    }
-    .container{
-        height: 100%;
-    }
-    html{
-        height: 100%;
-    }
-    body{
-        height: 100%;
     }
     .text_sec{
         display: flex;
