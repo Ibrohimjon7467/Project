@@ -293,6 +293,9 @@ label{
     .container{
         height: 100%;
     }
+    body{
+        height: 100%;
+    }
 }
 
 @media(max-width: 645px){
